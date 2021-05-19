@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Europe"; 
+	url("font/europe.ttf") format("ttf"); 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	background: Green;
+}
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	height: 732px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    width: 1000px;
+	height: 75px;
+	background: #FFE680;
+	margin:0 0;
+}
+
+.logo {
+    background-image: url(./images/logo.png);
+    width: 75px;
+    height: 75px;
+}
+.logo_text p {
+    font-family: "Europe";
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 128px;
+    margin-left: 88px;
+    margin-top: 24px;
+    padding:0;
+}
+
+.phone_one {
+    margin-top: -38px;
+    margin-left: 795px;
+    width: 132px;
+    font-family: "Europe";
+    font-size: 18px;
+    color: #E0491EFF;
+    letter-spacing: 1px;
+}
+
+.phone_two {
+    margin-top: 0;
+    margin-left: 795px;
+    width: 144px;
+    font-family: "Europe";
+    font-size: 18px;
+    color: #E0491EFF;
+    word-spacing: 2px;
+}
+
+.menu {
+    width: 1000px;
+    height: 50px;
+}
+
+
+.menu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background:black; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+}
+.menu ul li a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:black; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  /* padding:0px 15px; */
+  padding-right: 38px;
+  text-align: center;
+  padding-left: 38px;
+  font-family: arial; /*меняем шрифт*/
+  font-size: 14px;
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #F36262; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+.menu ul li a:hover {
+  background:#F03D1AFF;/*добавляем эффект при наведении*/
+}
+.menu ul li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+
+#navi_1 {
+    padding-left: 62px;
+    padding-right: 34px;
+}
+
+#navi_2 {
+    padding-left: 32px;
+    padding-right: 65px;
+    border-right:0px solid #000;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    width: 1000px;
+	margin:0 2px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1000px;
+	height: 100px;
+	background: #BFF08E;
+	margin:0 2px;
+}
